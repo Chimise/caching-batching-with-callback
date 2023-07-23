@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "level": "^6.0.0",
+    "nanoid": "^4.0.2",
+    "subleveldown": "^6.0.1",
+    "superagent": "^8.0.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node load-test.js",
+    "test1": "node load-test.js product=game",
+    "test2": "node load-test.js product=app",
+    "populate": "node populate-db.js"
+  },
+  "name": "sales-app",
+  "version": "1.0.0",
+  "main": "load-test.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
